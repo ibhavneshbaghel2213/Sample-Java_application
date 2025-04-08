@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hugame
-          image: ibhavneshbaghel/hu_game:64
+          image: ibhavneshbaghel/hu_game:72
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
